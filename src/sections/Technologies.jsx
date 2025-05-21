@@ -1,7 +1,8 @@
 import SectionWrapper from "../components/SectionWrapper";
 import {
-  SiPython, SiJavascript, SiHtml5, SiBootstrap, SiFlask,
-  SiGitlab, SiTensorflow, SiPytorch, SiJupyter, SiGooglecolab, SiAnaconda, SiFirebase
+  SiPython, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiFlask,
+  SiGitlab, SiTensorflow, SiPytorch, SiJupyter, SiGooglecolab, SiAnaconda,
+  SiFirebase, SiPycharm, SiNodedotjs, SiPostman, SiMysql
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -9,16 +10,19 @@ const softwareTools = [
   { name: "Python", icon: <SiPython size={32} color="#3776AB" /> },
   { name: "JavaScript", icon: <SiJavascript size={32} color="#F7DF1E" /> },
   { name: "HTML5", icon: <SiHtml5 size={32} color="#E34F26" /> },
+  { name: "CSS3", icon: <SiCss3 size={32} color="#1572B6" /> },
   { name: "Bootstrap", icon: <SiBootstrap size={32} color="#7952B3" /> },
   { name: "Flask", icon: <SiFlask size={32} color="#000000" /> },
   { name: "VS Code", icon: <VscVscode size={32} color="#007ACC" /> },
+  { name: "PyCharm", icon: <SiPycharm size={32} color="#31A8FF" /> },
   { name: "GitLab", icon: <SiGitlab size={32} color="#FC6D26" /> },
   { name: "TensorFlow", icon: <SiTensorflow size={32} color="#FF6F00" /> },
   { name: "PyTorch", icon: <SiPytorch size={32} color="#EE4C2C" /> },
   { name: "Jupyter", icon: <SiJupyter size={32} color="#F37626" /> },
   { name: "Google Colab", icon: <SiGooglecolab size={32} color="#F9AB00" /> },
   { name: "Anaconda", icon: <SiAnaconda size={32} color="#44A833" /> },
-  { name: "Firebase", icon: <SiFirebase size={32} color="#FFCA28" /> }
+  { name: "Firebase", icon: <SiFirebase size={32} color="#FFCA28" /> },
+  { name: "Postman", icon: <SiPostman size={32} color="#FF6C37" /> }
 ];
 
 
