@@ -6,39 +6,39 @@ const sections = [
         title: "Group Documents",
         type: "pdf",
         items: [
-            { name: "Topic Assessment", file: "/docs/topic-assessment.pdf", label: "Group Submission" },
-            { name: "Research Paper", file: "/docs/research-paper.pdf", label: "Group Submission" },
-            { name: "Status Document", file: "/docs/status-document.pdf", label: "Group Submission" }
+            { name: "Topic Assessment", file: "/docs/Group-Reports/TAF-Report.pdf", label: "Group Submission" },
+            { name: "Research Paper", file: "/docs/Group-Reports/research-paper.pdf", label: "Group Submission" },
+            { name: "Group Final Report", file: "/docs/Group-Reports/Group_Final_Report.pdf", label: "Group Submission" }
         ]
     },
     {
         title: "Individual Proposal Reports",
         type: "pdf",
         items: [
-            { name: "M.P.O.M Gomes", file: "/docs/gomes-proposal.pdf", label: "Project Proposal Report" },
-            { name: "Jayasekara Y.N", file: "/docs/jayasekara-proposal.pdf", label: "Project Proposal Report" },
-            { name: "Kariyapperuma K.M.K.R", file: "/docs/kariyapperuma-proposal.pdf", label: "Project Proposal Report" },
-            { name: "Gunawardhana H.P.M.N", file: "/docs/gunawardhana-proposal.pdf", label: "Project Proposal Report" }
+            { name: "Asardeen A.", file: "/docs/Proposal-Reports/IT21231896_Asardeen .A.pdf", label: "Project Proposal Report" },
+            { name: "Jayaneththi I.H.N.S.", file: "/docs/Proposal-Reports/IT21231414 I H N S jayaneththi.pdf", label: "Project Proposal Report" },
+            { name: "Thrimavithana V.D.", file: "/docs/Proposal-Reports/IT21181160_Thrimavithana V.D..pdf", label: "Project Proposal Report" },
+            { name: "Najas M.N.M.", file: "/docs/Proposal-Reports/proposal report- Najas MNM.pdf", label: "Project Proposal Report" }
         ]
     },
     {
         title: "Final Individual Reports",
         type: "pdf",
         items: [
-            { name: "M.P.O.M Gomes", file: "/docs/gomes-final.pdf", label: "Final Report" },
-            { name: "Jayasekara Y.N", file: "/docs/jayasekara-final.pdf", label: "Final Report" },
-            { name: "Kariyapperuma K.M.K.R", file: "/docs/kariyapperuma-final.pdf", label: "Final Report" },
-            { name: "Gunawardhana H.P.M.N", file: "/docs/gunawardhana-final.pdf", label: "Final Report" }
+            { name: "Asardeen A.", file: "/docs/Final-Reports/IT21231896_Asardeen.A_Final_Report.pdf", label: "Final Report" },
+            { name: "Jayaneththi I.H.N.S.", file: "/docs/Final-Reports/Final Report_IT21231414 Jayaneththi I H N S 1.pdf", label: "Final Report" },
+            { name: "Thrimavithana V.D.", file: "/docs/Final-Reports/IT21181160-Thrimavithana V.D.pdf", label: "Final Report" },
+            { name: "Najas M.N.M.", file: "/docs/Final-Reports/najath-final.pdf", label: "Final Report" }
         ]
     },
     {
         title: "Presentations",
         type: "ppt",
         items: [
-            { name: "M.P.O.M Gomes", file: "/presentations/gomes-final-presentation.pptx", label: "Final Presentation" },
-            { name: "Jayasekara Y.N", file: "/presentations/jayasekara-final-presentation.pptx", label: "Final Presentation" },
-            { name: "Kariyapperuma K.M.K.R", file: "/presentations/kariyapperuma-final-presentation.pptx", label: "Final Presentation" },
-            { name: "Gunawardhana H.P.M.N", file: "/presentations/gunawardhana-final-presentation.pptx", label: "Final Presentation" }
+            { name: "Proposal Presentation", file: "/docs/Presentation/Proposal Presentation.pdf", label: "Final Presentation" },
+            { name: "Progress Presentation 1", file: "/docs/Presentation/PP1.pdf", label: "Final Presentation" },
+            { name: "Progress Presentation 2", file: "/docs/Presentation/PP2.pdf", label: "Final Presentation" },
+            { name: "Final Presentation", file: "#", label: "Final Presentation - uploaded soon" }
         ]
     }
 ];
