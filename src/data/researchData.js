@@ -30,11 +30,11 @@ export const researchContent = [
     {
       title: "Expected Impact",
       content: `GreenBrain is expected to:
-      • Reduce water and fertilizer waste through optimized scheduling  
-      • Improve crop yield and fruit quality via precision farming  
-      • Detect diseases early, minimizing loss and chemical use  
-      • Reduce manual effort and dependency on guesswork  
-      • Promote sustainability in smart agriculture practices`
+      • Reduce water and fertilizer waste through optimized schedulings.  
+      • Improve crop yield and fruit quality via precision farming  .
+      • Detect diseases early, minimizing loss and chemical use.
+      • Reduce manual effort and dependency on guesswork.  
+      • Promote sustainability in smart agriculture practices.`
     },
     {
         title: "Research Objectives",
