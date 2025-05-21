@@ -1,24 +1,26 @@
 import SectionWrapper from "../components/SectionWrapper";
 import {
   SiPython, SiJavascript, SiHtml5, SiBootstrap, SiFlask,
-  SiGitlab, SiTensorflow, SiPytorch, SiJupyter, SiGooglecolab, SiAnaconda
+  SiGitlab, SiTensorflow, SiPytorch, SiJupyter, SiGooglecolab, SiAnaconda, SiFirebase
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 const softwareTools = [
-  { name: "Python", icon: <SiPython size={32} /> },
-  { name: "JavaScript", icon: <SiJavascript size={32} /> },
-  { name: "HTML5", icon: <SiHtml5 size={32} /> },
-  { name: "Bootstrap", icon: <SiBootstrap size={32} /> },
-  { name: "Flask", icon: <SiFlask size={32} /> },
-  { name: "VS Code", icon: <VscVscode size={32} />},
-  { name: "GitLab", icon: <SiGitlab size={32} /> },
-  { name: "TensorFlow", icon: <SiTensorflow size={32} /> },
-  { name: "PyTorch", icon: <SiPytorch size={32} /> },
-  { name: "Jupyter", icon: <SiJupyter size={32} /> },
-  { name: "Google Colab", icon: <SiGooglecolab size={32} /> },
-  { name: "Anaconda", icon: <SiAnaconda size={32} /> }
+  { name: "Python", icon: <SiPython size={32} color="#3776AB" /> },
+  { name: "JavaScript", icon: <SiJavascript size={32} color="#F7DF1E" /> },
+  { name: "HTML5", icon: <SiHtml5 size={32} color="#E34F26" /> },
+  { name: "Bootstrap", icon: <SiBootstrap size={32} color="#7952B3" /> },
+  { name: "Flask", icon: <SiFlask size={32} color="#000000" /> },
+  { name: "VS Code", icon: <VscVscode size={32} color="#007ACC" /> },
+  { name: "GitLab", icon: <SiGitlab size={32} color="#FC6D26" /> },
+  { name: "TensorFlow", icon: <SiTensorflow size={32} color="#FF6F00" /> },
+  { name: "PyTorch", icon: <SiPytorch size={32} color="#EE4C2C" /> },
+  { name: "Jupyter", icon: <SiJupyter size={32} color="#F37626" /> },
+  { name: "Google Colab", icon: <SiGooglecolab size={32} color="#F9AB00" /> },
+  { name: "Anaconda", icon: <SiAnaconda size={32} color="#44A833" /> },
+  { name: "Firebase", icon: <SiFirebase size={32} color="#FFCA28" /> }
 ];
+
 
 const hardwareTools = [
   { name: "ESP32 Microcontroller", image: "/assets/hardware/esp32.jpg" },
@@ -31,7 +33,6 @@ const hardwareTools = [
   { name: "DC Water Pump", image: "/assets/hardware/motor.webp" },
   { name: "Fan", image: "/assets/hardware/fan.jpg" },
   { name: "LEDs", image: "/assets/hardware/led.avif" },
-  { name: "Firebase Realtime DB", image: "/assets/hardware/firebase.png" },
   { name: "LDR Sensor", image: "/assets/hardware/LDR.webp" },
   { name: "Buzzer", image: "/assets/hardware/Buzzer.webp" }
 ];
