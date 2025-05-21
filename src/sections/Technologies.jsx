@@ -31,7 +31,9 @@ const hardwareTools = [
   { name: "DC Water Pump", image: "/assets/hardware/motor.webp" },
   { name: "Fan", image: "/assets/hardware/fan.jpg" },
   { name: "LEDs", image: "/assets/hardware/led.avif" },
-  { name: "Firebase Realtime DB", image: "/assets/hardware/firebase.png" }
+  { name: "Firebase Realtime DB", image: "/assets/hardware/firebase.png" },
+  { name: "LDR Sensor", image: "/assets/hardware/LDR.webp" },
+  { name: "Buzzer", image: "/assets/hardware/Buzzer.webp" }
 ];
 
 const TechCard = ({ name, icon }) => (
