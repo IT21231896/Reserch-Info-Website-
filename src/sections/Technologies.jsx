@@ -21,16 +21,16 @@ const softwareTools = [
 ];
 
 const hardwareTools = [
-  { name: "ESP32 Microcontroller", image: "/assets/hardware/esp32.png" },
-  { name: "DHT11 Temp & Humidity Sensor", image: "/assets/hardware/dht11.png" },
-  { name: "Soil Moisture Sensor", image: "/assets/hardware/soil.png" },
-  { name: "Water Level Sensor", image: "/assets/hardware/water-sensor.png" },
-  { name: "Ultrasonic Sensor", image: "/assets/hardware/ultrasonic.png" },
+  { name: "ESP32 Microcontroller", image: "/assets/hardware/esp32.jpg" },
+  { name: "DHT11 Temp & Humidity Sensor", image: "/assets/hardware/DH11.png" },
+  { name: "Soil Moisture Sensor", image: "/assets/hardware/soil_moisture_sensor.jpg" },
+  { name: "Water Level Sensor", image: "/assets/hardware/water-level-sensor.jpg" },
+  { name: "Ultrasonic Sensor", image: "/assets/hardware/ultrasonic.jpg" },
   { name: "Relay Module", image: "/assets/hardware/relay.png" },
-  { name: "OLED Display", image: "/assets/hardware/oled.png" },
-  { name: "DC Water Pump", image: "/assets/hardware/motor.png" },
-  { name: "Fan", image: "/assets/hardware/fan.png" },
-  { name: "LEDs", image: "/assets/hardware/led.png" },
+  { name: "OLED Display", image: "/assets/hardware/oled.jpg" },
+  { name: "DC Water Pump", image: "/assets/hardware/motor.webp" },
+  { name: "Fan", image: "/assets/hardware/fan.jpg" },
+  { name: "LEDs", image: "/assets/hardware/led.avif" },
   { name: "Firebase Realtime DB", image: "/assets/hardware/firebase.png" }
 ];
 
