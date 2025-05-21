@@ -1,12 +1,57 @@
-# React + Vite
+# 🌿 Smart Greenhouse DSS — GreenBrain
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Decision Support System (DSS) for **optimized tomato cultivation** in greenhouses using **IoT + Machine Learning**. Built by a team of passionate undergraduates from SLIIT to assist farmers in automating irrigation, fertilization, disease detection, and harvesting.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Website
 
-## Expanding the ESLint configuration
+🔗 [Visit Live Site](https://greenbrainak.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 📸 Overview
+
+![Hero Preview](public/assets/hero-tomato.jpg)
+
+---
+
+## 📌 Features
+
+- 🌱 Real-time monitoring with **ESP32 & sensors**
+- 📊 ML models for:
+  - Irrigation scheduling
+  - Fertilizer prediction
+  - Disease detection (via CNN)
+  - Harvest forecasting
+- 🖥️ Interactive web dashboard (React.js + Vite)
+- ☁️ Firebase Realtime Database
+- 🌗 Dark mode UI
+- 📁 Downloadable reports & presentations
+
+---
+
+## 🧠 Tech Stack
+
+| Frontend   | Backend / ML | Hardware / IoT     |
+|------------|--------------|---------------------|
+| React + Vite | Python (TensorFlow, Sklearn) | ESP32 |
+| TailwindCSS | Firebase (Realtime DB)        | Soil Moisture, DHT11, Ultrasonic |
+| EmailJS     | Flask (optional)             | OLED Display, Relay, DC Pump     |
+
+---
+
+## 🛠️ Installation (For Developers)
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/IT21231896/Reserch-Info-Website-
+
+# 2. Navigate into the folder
+cd smart-greenhouse-dss
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the dev server
+npm run dev
