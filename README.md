@@ -55,3 +55,7 @@ npm install
 
 # 4. Run the dev server
 npm run dev
+
+
+#Note: Hosted by Azar and Host Date: 2025/05/21
+#Used to host Netfly free hosting platform
