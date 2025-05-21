@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'media', // enables auto-theme switching
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {

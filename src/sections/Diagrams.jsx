@@ -2,11 +2,6 @@ import SectionWrapper from "../components/SectionWrapper"
 
 const diagrams = [
     {
-      title: "IoT Device Circuit",
-      img: "/assets/diagrams/IOT_withCercuit.jpg",
-      caption: "hardwares soldered with the PCB shows how environmental sensors like soil moisture, humidity, and temperature are physically arranged in the greenhouse and connected to the ESP32 controller."
-    },
-    {
       title: "System Diagram",
       img: "/assets/diagrams/System Diagram.jpg",
       caption: "Shows the full data flow from sensors to cloud to dashboard, covering the interaction between IoT, Firebase, ML models, and the web interface."
@@ -17,14 +12,19 @@ const diagrams = [
       caption: "Visualizes the modular architecture of the system, including components like ESP32, cloud storage, Python ML models, and React frontend."
     },
     {
-      title: "IoT Device",
-      img: "/assets/diagrams/IOT_Device.png",
-      caption: "A real-world photo of the assembled IoT unit used in testing. It includes DHT22, LDR, and soil sensors connected to the ESP32 and powered via battery."
-    },
-    {
       title: "Circuit Diagram",
       img: "/assets/diagrams/iot ceircuit.png",
       caption: "This circuit layout shows wiring between sensors and ESP32, pin connections, and power management for reliable greenhouse data collection."
+    },
+    {
+      title: "IoT Device Circuit",
+      img: "/assets/diagrams/IOT_withCercuit.jpg",
+      caption: "hardwares soldered with the PCB shows how environmental sensors like soil moisture, humidity, and temperature are physically arranged in the greenhouse and connected to the ESP32 controller."
+    },
+    {
+      title: "IoT Device",
+      img: "/assets/diagrams/IOT_Device.png",
+      caption: "A real-world photo of the assembled IoT unit used in testing. It includes DHT22, LDR, and soil sensors connected to the ESP32 and powered via battery."
     }
   ];
   
