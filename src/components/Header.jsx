@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-black/90 shadow-md transition-colors">
       <nav className="flex items-center justify-between px-6 sm:px-12 py-5">
-        <h1 className="text-3xl font-extrabold text-primary">GreenBrain</h1>
+        <h1 className="text-3xl font-extrabold text-primary">AI-IoT Plantation</h1>
 
         <ul className="hidden md:flex gap-8 text-base font-semibold">
           {NAV_LINKS.map(link => (
