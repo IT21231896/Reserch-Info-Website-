@@ -22,7 +22,7 @@ const mentors = [
 
 const members = [
   {
-    name: "Azees Asardeen",
+    name: "Asardeen .A",
     role: "Undergraduate",
     stream: "Information Technology",
     email: "azeesasardeen@gmail.com",
@@ -33,15 +33,15 @@ const members = [
     name: "Jayaneththi I.H.N.S.",
     role: "Undergraduate",
     stream: "Information Technology",
-    email: "your@email.com",
-    linkedin: "https://linkedin.com",
+    email: "naveensudaraka20@gmail.com",
+    linkedin: "http://www.linkedin.com/in/naveen-jayaneththi-033bb82a1",
     image: "/assets/team/jayaneththi.png"
   },
   {
     name: "Thrimavithana V.D.",
     role: "Undergraduate",
     stream: "Information Technology",
-    email: "your@email.com",
+    email: "diltharavishvi@gmail.com",
     linkedin: "https://linkedin.com",
     image: "/assets/team/thrimavithana.png"
   },
