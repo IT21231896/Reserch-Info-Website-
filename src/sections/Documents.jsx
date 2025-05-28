@@ -38,7 +38,7 @@ const sections = [
             { name: "Proposal Presentation", file: "/docs/Presentation/Proposal Presentation.pdf", label: "Final Presentation" },
             { name: "Progress Presentation 1", file: "/docs/Presentation/PP1.pdf", label: "Final Presentation" },
             { name: "Progress Presentation 2", file: "/docs/Presentation/PP2.pdf", label: "Final Presentation" },
-            { name: "Final Presentation", file: "#", label: "Final Presentation - uploaded soon" }
+            { name: "Final Presentation", file: "/docs/Presentation/FinalPresentationSlides.pdf", label: "Final Presentation - uploaded soon" }
         ]
     }
 ];
